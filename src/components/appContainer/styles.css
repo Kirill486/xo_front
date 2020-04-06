@@ -1,0 +1,21 @@
+@import '../../index.css';
+
+.application__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: var(--app-margin);
+  background-color: var(--background-color);
+}
+
+.application__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: var(--title-size) 0;
+}
+
+.application__row--wide {
+  width: 100%;
+}

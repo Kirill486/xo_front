@@ -1,0 +1,5 @@
+.title__container {
+  font-size: calc(var(--title-size) / 1.5);
+  color: var(--dark-color);
+  margin-top: var(--cell-size);
+}

@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #0277bd;
+  --light-color: #58a5f0;
+  --dark-color: #004c8c;
+  --background-color :#E1E2E1;
+  --color-contrast: #eaf9ff;
+  --success-color :#0ed60e;
+  --failure-color :#ff4b4b;
+}
+
+@media screen and (min-width: 320px) {
+  :root {
+    --app-margin: 0;
+    --title-size: 16px;
+    --cell-size: 28px;
+  }
+}
+
+@media screen and (min-width: 568px) {
+  :root {
+    --app-margin: 0;
+    --title-size: 24px;
+    --cell-size: 48px;
+  }
+}
+
+@media screen and (min-width: 479px) {
+  :root {
+    --app-margin: 0;
+    --title-size: 48px;
+    --cell-size: 64px;
+  }
+}
+
+@media screen and (min-width: 1275px) {
+  :root {
+    --app-margin: 0 10%;
+    --title-size: 48px;
+    --cell-size: 64px;
+  }
+}
+
+.control {
+  color: var(--main-color);
+  background-color: var(--color-contrast);
+  border: solid 2px var(--dark-color);
+}
+
+.control:hover {
+  background-color: var(--dark-color);
+  border: solid 2px var(--color-contrast);
+  color: var(--color-contrast);
+}
+
+.control:disabled {
+  background-color: var(--light-color);
+  color: black;
+  border: solid 2px var(--dark-color);
+}

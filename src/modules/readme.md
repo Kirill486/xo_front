@@ -1,0 +1,1 @@
+This folder content may be better extract as modules outside project

@@ -1,0 +1,16 @@
+.input-confirm__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-confirm__input {
+  height: var(--cell-size);
+  width: 80%;
+  margin: 0 calc(var(--title-size) / 4) 0 0;
+  padding: 0 calc(var(--title-size) / 2);
+  font-size: calc(var(--title-size) / 2);
+  border: solid 2px var(--light-color);
+  border-radius: calc(var(--title-size) / 4);
+  background-color: var(--dark-color);
+  color: var(--color-contrast);
+}

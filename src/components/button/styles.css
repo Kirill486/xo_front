@@ -1,0 +1,6 @@
+.button__button {
+  height: var(--cell-size);
+  font-size: calc(var(--title-size) / 2);
+  border: solid 2px var(--dark-color);
+  border-radius: calc(var(--title-size) / 4);
+}
